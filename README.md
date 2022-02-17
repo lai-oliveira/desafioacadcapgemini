@@ -1,13 +1,13 @@
-# DESAFIO DE PROGRAMAÇÃO - ACADEMIA CAPGEMINI
+# DESAFIO DE PROGRAMAÇÃO - ACADEMIA CAPGEMINI 🚀 🚀
 
 
-## Ferramentas utilizadas: 
+## 🛠️ Ferramentas utilizadas: 
 - Java 11
 - Maven 
 - IDE Intellij 
 - Git e GitHub para controle de vercionamento
 
-## Questões 
+##  Questões 
  ### Questão 01
 Escreva um algoritmo que mostre na tela uma escada de tamanho n utilizando o caractere * e espaços.
 A base e altura da escada devem ser iguais ao valor de n.
