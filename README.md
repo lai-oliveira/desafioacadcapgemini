@@ -1,12 +1,9 @@
 # DESAFIO DE PROGRAMAÇÃO - ACADEMIA CAPGEMINI
 
 
-## Como build o projeto 
-mvn clean instal
 ## Ferramentas utilizadas: 
 - Java 11
 - Maven 
-- jUnit
 - IDE Intellij 
 - Git e GitHub para controle de vercionamento
 
@@ -35,3 +32,6 @@ Dada uma string qualquer, desenvolva um algoritmo que encontre o número de pare
 ## Para execucão do programa:
 - Abra o git bash na sua maquina local 
 - faça um git clone do progeto.
+- 
+## Como build o projeto 
+mvn clean instal
