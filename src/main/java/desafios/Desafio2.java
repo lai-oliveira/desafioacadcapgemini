@@ -12,7 +12,7 @@ public class Desafio2 {
 
     /*inicialisando com quantidade minima de caracter*/
         String senha;
-        int qtdmincaracter = 6;
+        int qtdMinCaracter = 6;
         int maiuscula = 0;
         int minuscula =0;
         int numero = 0;
@@ -27,6 +27,23 @@ public class Desafio2 {
 
         System.out.println("Digite sua Senha :");
         senha = scan.nextLine();
+
+        /*
+        * Checagem de caracteres maiusculas,
+        * Checagem de caracteres minusculas,
+        * Checagem de números.
+         */
+        if(senha.length()>=qtdMinCaracter){
+            for(int i = 0;i< senha.length();i++ ){
+                char ch = senha.charAt(i);
+                if(Character.isUpperCase(ch)){
+                    maiuscula++;
+                }
+                if (Character.isLetterOrDigit(ch)){
+                    numero++;
+                }
+            }
+        }
 
 
 
